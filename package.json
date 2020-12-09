@@ -1,15 +1,29 @@
 {
   "name": "ant-design-vue-admin",
+  "description": "ant-design-vue-admin",
+  "repository": {
+    "url": "https://github.com/zixinhmc/ant-design-vue-admin.git",
+    "type": "git"
+  },
+  "license": "BSD",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
   },
   "dependencies": {
+    "typescript": "^4.1.2",
     "vue": "^3.0.4"
   },
   "devDependencies": {
-    "vite": "^1.0.0-rc.13",
-    "@vue/compiler-sfc": "^3.0.4"
+    "@typescript-eslint/eslint-plugin": "^4.9.1",
+    "@typescript-eslint/parser": "^4.9.1",
+    "@vue/compiler-sfc": "^3.0.4",
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-prettier": "^3.2.0",
+    "eslint-plugin-vue": "^7.2.0",
+    "prettier": "2.2.1",
+    "vite": "^1.0.0-rc.13"
   }
 }
